@@ -4,87 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="Styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Web Studio</title>
   </head>
 
   <body>
     <!-- top line-->
-    <header>
-      <nav>
-        <a href="https://lukast2008.github.io/goit-markup-hw-01/"
-          ><span>Web</span><span>Studio</span>
+    <header class="head-pos">
+      <nav class="nav-pos">
+        <a class="logo-pos"  href="https://lukast2008.github.io/goit-markup-hw-01/"
+          ><span class="logo-style">Web</span><span class="logo-style1">Studio</span>
         </a>
 
-        <ul>
-          <li><a href="/">Студія</a></li>
+        <ul class="link-pos">
+          <li class="link-item"><a class="link-style" href="./index.html">Студія</a></li>
 
-          <li><a href="./portfolio.html">Портфоліо</a></li>
+          <li class="link-item"><a class="link-style" href="./portfolio.html">Портфоліо</a></li>
 
-          <li><a href="./contacts">Контакти</a></li>
+          <li class="link-item"><a class="link-style" href="./contacts">Контакти</a></li>
         </ul>
       </nav>
 
       <!-- contacts -->
-      <ul>
-        <li><a href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="link-pos">
+        <li class="link-item"><a class="link-style" href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
+        <li class="link-item"><a class="link-style" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <!-- Main content-->
-    <main>
+    <main class="main">
       <!-- Hed -->
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button class="button" type="button">Замовити послугу</button>
+      <section class="hero">
+        <h1 class="hero-text-style">Ефективні рішення для </br> вашого бізнесу</h1>
+        <button class="btn" type="button">Замовити послугу</button>
       </section>
 
       <!-- Features -->
-      <section>
-        <h2>Особливості</h2>
-        <ul>
-          <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+      <section class="feattures">
+        <h2 class="feattures-head">Особливості</h2>
+        <ul class="feattures-item"  >
+
+          <li class="pos-item">
+            <h3 class="head-line">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+
+          <li class="pos-item">
+            <h3 class="head-line">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               усебе.
             </p>
           </li>
-          <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+
+          <li class="pos-item">
+            <h3 class="head-line">ПЛАНУВАННЯ</h3>
+            <p  class="text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
-              Значимість цих проблем настільки очевидна, що реалізація планових
+
+          <li class="pos-item">
+            <h3 class="head-line">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="text">
+              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
             </p>
-            завдань.
+            
           </li>
         </ul>
       </section>
 
       <!-- What do we do?-->
-      <section>
-        <h2>Чим ми займаємося</h2>
+      <section class="what-pos">
+        <h2 class="what-head">Чим ми займаємося</h2>
 
-        <ul>
+        <ul class="what-item">
           <li>
             <img
               width="370"
@@ -93,7 +94,7 @@
             />
           </li>
 
-          <li>
+          <li class="what-pos-item">
             <img
               width="370"
               src="images/img1.jpg"
@@ -112,32 +113,32 @@
       </section>
 
       <!-- our team-->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="team-pos">
+        <h2 class="team-head">Наша команда</h2>
 
-        <ul>
-          <li>
+        <ul class="team-list">
+          <li class="team-item">
             <img width="270" src="images/f0img.jpg" alt="man" />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <h3 class="name">Ігор Дем'яненко</h3>
+            <p class="tech">Product Designer</p>
           </li>
 
-          <li>
+          <li class="team-item">
             <img width="270" src="images/f1img.jpg" alt="woman" />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <h3 class="name">Ольга Рєпіна</h3>
+            <p class="tech">Frontend Developer</p>
           </li>
 
-          <li>
+          <li class="team-item">
             <img width="270" src="images/f2img.jpg" alt="man" />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="name">Микола Тарасов</h3>
+            <p class="tech">Marketing</p>
           </li>
 
-          <li>
+          <li class="team-item">
             <img width="270" src="images/f3img.jpg" alt="man" />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <h3 class="name">Михайло Єрмаков</h3>
+            <p class="tech">UI Designer</p>
           </li>
         </ul>
       </section>
