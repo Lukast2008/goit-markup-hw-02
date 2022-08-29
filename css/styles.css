@@ -1,6 +1,6 @@
 body {
   font-family: "Raleway", "Roboto", sans-serif;
-  background-color: #ffffff;
+  background: #ffffff;
 }
 
 /*Headr-style*/
@@ -53,7 +53,6 @@ body {
 }
 
 .link-style {
-  list-style: none;
   text-decoration: none;
   font-size: 14px;
   color: #000000;
@@ -70,7 +69,7 @@ body {
 
 /*main content*/
 .main {
-  background-color: #f5f5f5;
+  width: 1600px;
 }
 
 .hero {
@@ -103,7 +102,7 @@ body {
   height: 50px;
   background-color: #2196F3;
   display: inline-flex;
-  margin-inline: 724px;
+  margin-left: 692px;
   margin-top: 30px;
   padding: 14px 24px;
   border: none;
@@ -130,6 +129,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 1600px;
+  
 }
 
 .feattures-head{
@@ -183,6 +183,7 @@ body {
   margin-left: 215px;
   margin-right: 215px;
   margin-bottom: 94px;
+  ;
 }
 
 .what-head{
@@ -215,17 +216,19 @@ body {
   height: 648px;
   width: 1600px;
   padding: 0px;
-
+  background:  #F5F4FA;
+  margin-top: 94px;
+  
 }
 
 .team-head{
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .team-list{
@@ -233,8 +236,9 @@ body {
   justify-content: space-between;
   height:368px ;
   width: 1170px;
-  margin-top: 50px;
   padding: 0px;
+  margin-top: 50px;
+  margin-bottom: 0%;
   margin-left: 215px;
   list-style: none;
 
@@ -242,10 +246,14 @@ body {
 
 .team-item{
   text-align: center;
-  font-family: Roboto;
-  margin-bottom: 30px;
-  border-radius: 2px;
-  box-shadow: 1px 4px 0px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Roboto";
+  height: 368px;
+  border-radius:4px;
+  offset: 0px,2px;
+  
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+  0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .name{
@@ -253,6 +261,9 @@ body {
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #212121;
 }
 
 .tech{
@@ -261,8 +272,183 @@ body {
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
+  color: #757575;
+
   
 }
 
 
+/*futer*/
+.fut{
+height: 252px;
+width: 1600px;
+background: #2F303A;
+display: flex;
+flex-direction: column;
 
+
+}
+
+.logo-pos_infut{
+  
+  padding-top: 60px;
+  margin-left: 215px;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700px;
+  text-decoration: none;
+
+}
+
+.logo-stylefut{
+  color:#2196F3 ;
+}
+
+.logo-stylefut1{
+  color:#ffffff ;
+}
+
+
+.address{
+  
+  margin-left: 215px;
+  margin-right: 1154px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.addres-f{
+  
+  font-family: "Roboto";
+  font-style: normal;
+  
+  color: #ffffff;
+  
+  font-size: 14px;
+  font-weight: 400px;
+  padding: 9px;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+
+
+
+/*portfolio*/
+.portfolio{
+  width: 1170px;
+  height: 1360px;
+  margin: 94px 215px;
+}
+
+.text-header{
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.filter{
+  width: 575px;
+  height: 54px;
+  margin-left: 297px;
+  margin-bottom: 34px;
+}
+
+.filter-items{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding: 0px;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.list-b{
+  
+}
+
+.filter-button{
+  font-style: "Roboto"; 
+  font-Weight:500;
+  font-Size:16px;
+  Line-height:26px;
+  background: #F5F4FA;
+  color: #212121;
+  border-radius:4px;
+  border-style: none;
+  box-shadow:none;
+  display:flex;
+  padding: 6px 22px;
+  
+}
+
+.filter-button:hover,
+.filter-button:focus{
+  background: #2196F3;
+  color: #ffffff;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+  0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 3px 0px rgba(0, 0, 0, 0.12);;
+}
+
+.projects{
+  
+  width: 1170;
+  height:  1272px;
+  margin-top: 0px;
+  display: flex;
+  flex-flow:wrap;
+}
+
+
+
+.list-item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+height: 1272px;
+  text-decoration: none;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.project-item{
+ width: 370px;
+ height: 404px;
+ border: 1px solid #EEEEEE;
+ flex-flow:column wrap;
+}
+
+.project-name{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color:  #212121;
+  margin: 0px 20px;
+
+}
+
+.project-type{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+  margin-top: 4px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
